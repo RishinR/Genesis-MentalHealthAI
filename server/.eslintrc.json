@@ -1,0 +1,41 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "indent": ["warn", 2],
+        "no-unused-vars":"off",
+        "no-use-before-define":"warn",
+        //"no-console": "warn",
+        "no-mixed-spaces-and-tabs": "warn",
+        "space-before-blocks": "warn",
+        "space-in-parens": "warn",
+        "space-infix-ops": "warn",
+        "space-unary-ops": "warn",
+        "quotes": ["off", "single"],
+        //* Avoid Bugs
+        "no-undef": "warn",
+        "semi": "warn",
+        "semi-spacing": "warn",
+
+        //* Best Practices
+        "eqeqeq": "warn",
+        "no-invalid-this": "warn",
+        "no-return-assign": "warn",
+        "no-unused-expressions": ["warn", { "allowTernary": true }],
+        "no-useless-concat": "warn",
+        "no-useless-return": "warn",
+        "no-constant-condition": "warn"
+        //"camelcase": "warn"
+
+
+    }
+}
