@@ -25,4 +25,3 @@ MentalEase is designed to be a user-friendly platform that combines the power of
 - BERT for sentiment analysis
 - MentalBERT for illness classification
 - GPT-3.5 for natural language generation
-- [Add any other relevant technologies]
